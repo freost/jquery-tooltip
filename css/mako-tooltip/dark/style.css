@@ -1,0 +1,43 @@
+div#tooltip
+{
+	position: absolute;
+	float: left;
+	max-width: 200px;
+	overflow: hidden;
+}
+div#tooltip .pointer
+{
+	background-repeat: no-repeat;
+	height: 11px;
+}
+div#tooltip .pointerTL
+{
+	background-image: url('arrowTL.png');
+}
+div#tooltip .pointerTR
+{
+	background-image: url('arrowTR.png');
+	background-position: top right;
+}
+div#tooltip .pointerBL
+{
+	background-image: url('arrowBL.png');
+}
+div#tooltip .pointerBR
+{
+	background-image: url('arrowBR.png');
+	background-position: top right;
+}
+div#tooltip #ttBody
+{
+	background-image: url('bg.png');
+	color: #fff;
+	text-shadow: #111 1px 1px 0px;
+	padding: 6px;
+}
+div#tooltip .rounded
+{
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
