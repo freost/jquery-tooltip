@@ -1,8 +1,8 @@
 /**
 
-Mako Tooltip (v1.0.1)
+Tooltip
 
-Copyright (c) 2010, Frederic G. Østby
+Copyright (c) 2010-2011, Frederic G. Østby
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
